@@ -1,0 +1,195 @@
+﻿body{/*==detail CSS==*/
+	background-image: url(../Images/Background81.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	float:center;
+	
+}
+#main{
+	background:khaki;
+	width:1100px;	
+	border:10px double black;
+	overflow:auto;
+	margin-left:130px;
+	margin-top:100px;
+}
+/*#header { 
+	text-align:center;
+    width: 100%;
+	margin: 0 auto;
+   	background-color:white;	
+ 	color:red;
+    border-bottom:2px solid #2083cd;
+	border-top:2px solid #2083cd;*/
+	
+	}
+#content	{
+	width:100%;
+	height:800px;
+	background:red;
+}
+#left{
+	background:pink;	
+	
+	float:left;
+    width:20%;
+    margin:0px 0px 0px 0px;
+    padding:10px;
+	line-height:60px;
+	
+}
+#right{
+	width:78%;
+	float:left;
+    height:auto;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+    position:inherit;
+    background-color:#e1f6f3;
+	text-align:center;
+}
+
+#footer {
+    
+    height:auto;
+    float:left;
+    text-align:center;
+    width:100%;    
+    font-size: 16px;
+    margin: 0px 0 auto;
+    padding:10px 0px 0px 0px;
+    color:#ffffff;
+    border-top:1px solid #2083cd;
+	clear:both;
+background-color:#33E3FF;	
+}
+
+#nav{
+	
+	background-image: url(../Images/navback.png);
+    height:100px;
+    float:left;
+    text-align:center;
+    width:100%;
+    color:#ffffff;
+    font-size: 16px;
+	margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    border:1px solid #2083cd;
+	line-height: 10px
+}
+		#nav ul 
+			{
+				list-style:none;
+				text-align : center;
+				margin:0px 0px 0px 150px;
+        
+			}
+			#nav ul li
+			{
+				display: inline-table;
+				background: green;
+				width:150px;
+				height:40px;
+				line-height:40px;
+        position:relative;
+			}
+
+			#nav ul li a
+			{
+				display : block;
+				color:#f1f1f1;
+				text-decoration:none;
+			}
+			#nav ul li a:hover
+			{
+				background:#f1f1f1;
+				color:green;
+			}
+ #nav .hidden{
+	width:auto;
+	display: none;
+	position:absolute;
+	right:0px;
+	
+}
+#nav ul li:hover .hidden{
+  display:block;
+  margin-bottom:0px;
+}
+ .hidden .hidden2{
+	width:auto;
+	display: none;
+	position:absolute;
+	left:10px;
+}
+.hidden ul li:hover .hidden2{
+  display:block;
+  margin-bottom:0px;
+}
+/*=======================================================detail CSS=========================================================*/
+
+#left ul{/*===Grammar CSS===*/
+	list-style : none;
+	text-align : center;
+}
+#left ul li{
+  color:#f1f1f1;
+  background:#1f568b;
+  width:150px;
+  height:40px;
+  line-height:40px;
+  position:relative;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom:3px;
+}
+#left ul li a{
+	text-decoration: none;
+	display: block;
+	color:#f1f1f1;
+}
+#left ul li a:hover{
+	background:#f1f1f1;
+	color:#1f568b;
+}
+#left .hidden{
+	width:auto;
+	display: none;
+	position:absolute;
+	left:110px;
+	top:0px;
+	
+}
+#left ul li:hover .hidden{
+  display:block;
+  margin-bottom:0px;
+}
+
+/*=======================================================Grammar CSS=========================================================*/
+/*=======================================================Games ==============================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
