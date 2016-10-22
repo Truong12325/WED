@@ -142,6 +142,8 @@ background-color:#33E3FF;
   position:relative;
   border-bottom: 1px solid #f1f1f1;
   margin-bottom:3px;
+  list-style : none;
+  text-align : center;
 }
 #left ul li a{
 	text-decoration: none;
