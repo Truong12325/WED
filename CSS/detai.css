@@ -82,7 +82,7 @@ background-color:#33E3FF;
 			{
 				list-style:none;
 				text-align : center;
-				margin:0px 0px 0px 150px;
+				margin:30px 0px 0px 180px;
         
 			}
 			#nav ul li
@@ -111,6 +111,7 @@ background-color:#33E3FF;
 	display: none;
 	position:absolute;
 	right:0px;
+	top:10px;
 	
 }
 #nav ul li:hover .hidden{
@@ -121,11 +122,10 @@ background-color:#33E3FF;
 	width:auto;
 	display: none;
 	position:absolute;
-	left:10px;
+	left:20px;
+	top:0px;
 }
-.hidden ul li:hover .hidden2{
-  display:block;
-  margin-bottom:0px;
+
 }
 /*=======================================================detail CSS=========================================================*/
 
