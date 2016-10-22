@@ -111,7 +111,6 @@ background-color:#33E3FF;
 	display: none;
 	position:absolute;
 	right:0px;
-	top:10px;
 	
 }
 #nav ul li:hover .hidden{
@@ -122,10 +121,11 @@ background-color:#33E3FF;
 	width:auto;
 	display: none;
 	position:absolute;
-	left:20px;
-	top:0px;
+	left:10px;
 }
-
+.hidden ul li:hover .hidden2{
+  display:block;
+  margin-bottom:0px;
 }
 /*=======================================================detail CSS=========================================================*/
 
