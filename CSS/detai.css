@@ -172,11 +172,12 @@ background-color:#33E3FF;
 
 /*==============================Conversations===========================*/
 /*========================================================tense CSS =============================================*/
-#HTD{
+#right form {
 	border:1px solid #e085c2;
 }
-#tableHTD{
+#right table{
 	margin-left:70px;
+	border-style:double;
 }
 
 
