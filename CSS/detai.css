@@ -41,11 +41,10 @@
 #right{
 	width:78%;
 	float:left;
-    height:auto;
-    margin:0px 0px 0px 0px;
-    padding:0px;
-    position:inherit;
-    background-color:#e1f6f3;
+    	height:auto;
+    	margin:0px 0px 0px 0px;
+    	padding:0px;
+    	background-color:#e1f6f3;
 }
 
 #footer {
