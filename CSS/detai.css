@@ -26,7 +26,7 @@
 	}
 #content	{
 	width:100%;
-	height:800px;
+	height:1000px;
 }
 #left{
 	background:pink;	
@@ -141,7 +141,7 @@ background-color:#33E3FF;
     width: 550px;
     height: 230px;
     background-color: rgb(102, 255, 204);
-    margin: 00px 0px 20px 20px;
+    margin: 0px 50px 20px 20px;
     border-width: 5px;
     border-style: dotted;
     border-color: rgb(225, 246, 243);
@@ -200,6 +200,20 @@ background-color:#33E3FF;
     border-color: rgb(225, 246, 243);
     border-image: initial;
     border-radius: 30px;
+}
+.Muform{
+	text-align: center;
+	float: left;
+    width: 350px;
+    height: 100px;
+    background-color: #EF9E69;
+    margin: 0px 0px 20px 0px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(225, 246, 243);
+    border-image: initial;
+    border-radius: 30px;
+	clear:both;
 }
 
 /*=======================================================detail CSS=========================================================*/
