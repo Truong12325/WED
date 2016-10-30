@@ -3,6 +3,9 @@
 	<head>
 		<link rel="stylesheet" href="../CSS/detai.css"/>
 		<meta charset="UTF-8"/>
+	<script src="../Script/jquery-1.11.3.min.js"></script>
+	<script src="../Script/jquery-3.1.1.min.js"></script>
+    <script src="../Script/Contact.js"></script>
 	</head>
 	<body>
 		<div id="main">
@@ -23,31 +26,100 @@
 			</div>
 		
 			<div id="content">
-				<!--<div id="left">
-					<p>left content</p>
-				</div>-->
+			 <hr  width="30%" align="center" /> 
+			
+			<p style="text-align:center"><br>Hãy gửi cho chúng tôi những đống góp của bạn để chúng tôi cải thiện tốt hơn </p>
+			 <hr  width="30%" align="center" /> 
+					<div>
+            <h1 align="center" style="color:red" >Hộp Thư Góp Ý</h1>
+					</div>
 				
-				<div id="right">
-                    <table style="text-align:left;margin-left:350px" border="0">
-                        <tr>
-                            <td><label id="lblTen">Họ Tên:</label></td>
-                            <td><input type="text" id="txtTen" /></td>
-                        </tr>
-                        
-                        <tr>
-                            <td><label id="lblMail">Email:</label></td>
-                            <td><input type="email" id="txtMail" /></td>
-                        </tr>                        
+				<div style="margin-left:250px;float:left;border:1px solid #000" id="Cright">
+                    <table style="text-align:left;"border="0">
+                      
+							<td >
+								<label id="lblHoten">Họ Tên</label>
+							</td>
+							
+							<td>  
+								<input type="text" id="txtHoTen" /><label id="lblHoTen">*</label>
+						
+							</td>
+						</tr>
+						<tr>
+							<td >        
+								<label " >
+									Nơi bạn sống
+								</label>
 
-                        <tr>
-                            <td><label id="lblYK">Ý kiến của bạn:</label></td>
-                            <td><textarea id="txtYK" style="width:200px;height:100px"></textarea></td>
-                        </tr>
-                        
+							</td>
+							<td >
+								<select id="HoKhau">
+								<option>Tp Hồ Chí Minh</option>
+								<option>Hà Nội</option>
+								<option>Cần Thơ</option>
+							</select>
+							   <label id="lblHoKhau"></label>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label " id=" Email">
+									Email của bạn 
+								</label>
+						
+						   </td>
+						   <td>
+							   <input type="text" id="txtEmail" name="txtEmail" placeholder="Email" /><span id="Email"></span>
+						   </td>
+						 </tr>
+						<tr>
+							<td>
+								<label style="text-align:right"> Góp Ý Về :</label>
+							</td>
+							<td>
+									<input type="checkbox" /> <label>Music</label>
+									<input type="checkbox" /> <label>Conversations</label>
+									<input type="checkbox" /> <label>Games</label><br>
+									<input type="checkbox" /> <label>Grammar</label>
+									<input type="checkbox" /> <label>Nội dung khác</label>
+							</td>
+						</tr>
+						 <tr>
+							<td>
+							  <label style="text-align:right">Số điểm bạn đánh giá <br>về web của chúng tôi :</label>
+							</td>
+							<td>   
+								<input type="radio" name="diem" value="1" /> <label>1</label>
+								<input type="radio" name="diem" value="2"/> <label>2</label>
+								<input type="radio" name="diem" value="3"/> <label>3</label>
+								<input type="radio" name="diem" value="4"/> <label>4</label>
+								<input type="radio" name="diem" value="5"/> <label>5</label>
+								<br>
+								<input type="radio" name="diem" value="6"/> <label>6</label>
+								<input type="radio" name="diem" value="7"/> <label>7</label>
+								<input type="radio" name="diem" value="8"/> <label>8</label>
+								<input type="radio" name="diem" value="9"/> <label>9</label>
+								<input checked="checked"type="radio" name="diem" value="10"/> <label>10</label>
+							</td>
+						</tr>
+						 <tr>
+							<td>  
+								<label style="text-align:right">Nội Dung</label>
+							</td>
+							<td>    
+								<textarea style="width:400px;height:300px" placeholder="your text here!!!"></textarea>
+							</td>
+						</tr>
+					
                         
                     </table>
-                        
-				</div>
+				
+				 
+				  <div>
+            <input style="float:right;margin:0px 50px 10px 0px;padding-left:26px;padding-right:26px"type="submit" value="Gửi" />
+            <input style="float:right;margin:0px 50px 10px 0px;padding-left:26px;padding-right:26px"type="reset" value="Xóa" />
+				 </div>
 			</div>
 			
 			<div id="footer">
