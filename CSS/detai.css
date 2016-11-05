@@ -64,17 +64,26 @@ background-color:#33E3FF;
 
 #nav{
 	
+
 	background-image: url(../Images/eng2.jpg);
+
+	background-image: url(../Images/haters.jpg);
+	background-repeat:repeat;
+
     height:140px;
     float:left;
     text-align:center;
     width:100%;
     color:#ffffff;
     font-size: 16px;
+
 	margin:0px 0px 0px 0px;
     padding:0px 0px 20px 0px;
+	margin:0px 0px 30px 0px;
+    padding:0px 0px 0px 0px;
+
     border:1px solid #2083cd;
-	line-height: 10px
+	line-height: 10px;
 }
 		#nav ul 
 			{
@@ -86,7 +95,11 @@ background-color:#33E3FF;
 			{
 				border-radius:20px;
 				display: inline-table;
+
 				background: #06B262;
+
+				background:#33ccff;
+
 				width:120px;
 				height:40px;
 				line-height:40px;
@@ -96,8 +109,9 @@ background-color:#33E3FF;
 			#nav ul li a
 			{
 				display : block;
-				color:#f1f1f1;
+				color:black;
 				text-decoration:none;
+				border-radius:20px;
 			}
 			#nav ul li a:hover
 			{
