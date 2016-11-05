@@ -1,64 +1,0 @@
-10
-
-dir
-4
-http://nhudong-calculator.googlecode.com/svn/trunk/Calculator/res
-http://nhudong-calculator.googlecode.com/svn
-
-
-
-2013-09-18T06:08:13.034713Z
-2
-phamnhudong89
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-daaf8b33-a7c8-71cf-1292-7fceddb40e77
-
-drawable-xxhdpi
-dir
-
-drawable-hdpi
-dir
-
-menu
-dir
-
-values-v11
-dir
-
-drawable-ldpi
-dir
-
-values-v14
-dir
-
-drawable-mdpi
-dir
-
-drawable-xhdpi
-dir
-
-layout
-dir
-
-values-sw720dp-land
-dir
-
-values
-dir
-
-values-sw600dp
-dir
-

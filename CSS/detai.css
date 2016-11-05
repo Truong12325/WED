@@ -63,14 +63,8 @@ background-color:#33E3FF;
 }
 
 #nav{
-	
-
-	background-image: url(../Images/eng2.jpg);
-
-	background-image: url(../Images/haters.jpg);
-	background-repeat:repeat;
-
-    height:140px;
+    background-image: url(../Images/eng2.jpg);
+    height:160px;
     float:left;
     text-align:center;
     width:100%;
