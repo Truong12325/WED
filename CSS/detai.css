@@ -29,7 +29,7 @@
 	height:1000px;
 }
 #left{
-	background:pink;	
+		
 	
 	float:left;
     width:20%;
@@ -225,6 +225,8 @@ background-color:#33E3FF;
 #left ul{/*===Grammar CSS===*/
 	list-style : none;
 	text-align : center;
+	float:left;
+	margin-left:0px
 }
 #left ul li{
   color:#f1f1f1;
@@ -234,7 +236,7 @@ background-color:#33E3FF;
   line-height:40px;
   position:relative;
   border-bottom: 1px solid #f1f1f1;
-  margin-bottom:3px;
+  margin-bottom:10px;
   list-style : none;
   text-align : center;
 }
@@ -279,7 +281,74 @@ h3{
 
 /*=======================================================Grammar CSS=========================================================*/
 /*=======================================================Games ==============================================================*/
+.Gamehay{
+	float:right;
+	width:400 ;
+	height:380;
+	margin-top:15px;
+	margin-right:45px;
+	margin-bottom:0px
+}
 
+.Gamehay h4{
+	padding-top:20px;
+	text-align:center;
+	display:block;
+	background-color:#e1e1e1;
+	height:50px;
+	margin-top:-5px;
+	
+}
+.Gamechung1{
+	float:right;
+	width:250 ;
+	height:150;
+	margin-top:15px;
+	margin-right:20px;
+	margin-bottom:15px;
+}
+.Gamechung1 img{
+	width:285px;
+	height:150px;
+
+}
+
+.Gamechung1 h4{
+	padding-top:20px;
+	text-align:center;
+	display:block;
+	background-color:#e1e1e1;
+	height:50px;
+	margin-top:-5px;
+	
+}
+.Gamechung2{
+	float:right;
+	width:250 ;
+	height:150;
+	margin-top:15px;
+	margin-right:20px;
+	margin-bottom:15px;
+}
+.Gamechung2 img{
+	width:285px;
+	height:150px;
+	margin-left:1px;
+}
+
+
+.Gamechung2 h4{
+	padding-top:20px;
+	text-align:center;
+	display:block;
+	background-color:#e1e1e1;
+	height:50px;
+	margin-top:-5px;
+	
+}
+h4{
+	font-size:15px;	
+}
 
 /*==============================Conversations===========================*/
 video{
