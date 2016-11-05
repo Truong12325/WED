@@ -5,7 +5,22 @@
 		<meta charset="UTF-8"/>
 	<script src="../Script/jquery-1.11.3.min.js"></script>
 	<script src="../Script/jquery-3.1.1.min.js"></script>
-    <script src="../Script/Contact.js"></script>
+    <script src="../Script/guiYeuCau.js"></script>
+	<script type="text/javascript">
+					var soTugioihan = "200";
+
+					function ktSotu(){
+					var getTextValue = document.formKytu.noidung.value; 
+					var getTextLength = getTextValue.length;  
+					if(getTextLength > soTugioihan){  
+							getTextValue = getTextValue.substring(0,soTugioihan);
+							document.formKytu.noidung.value =getTextValue;
+							return false;
+					}
+					document.formKytu.kyTutoida.value = (soTugioihan-getTextLength);
+					  
+					}
+</script>
 	</head>
 	<body>
 		<div id="main">
@@ -14,7 +29,9 @@
 			</div>  -->
 			
 			<div id="nav">
-			<img style="float:left" src="../Images/logo.png"/>
+			<a href="detai.html">
+			<img style="float:left;margin-top:px" src="../Images/logo.png"/>
+			</a>
 				<ul id="menu">
 					<li><a href="detai.html">Home</a></li>
 					<li><a href="Music.html">Musics</a></li>
@@ -33,95 +50,99 @@
 					<div>
             <h1 align="center" style="color:red" >Hộp Thư Góp Ý</h1>
 					</div>
-				
+				<form name="formKytu" method="POST">
 				<div style="margin-left:250px;float:left;border:1px solid #000" id="Cright">
-                    <table style="text-align:left;"border="0">
-                      
-							<td >
-								<label id="lblHoten">Họ Tên</label>
-							</td>
+                    <table style="text-align:left;"border="0">				
+							<tr>
+								 <td><label for="hoten" class="title">Họ và tên <span id="hoten">*</span></label> </td>                     
+								 <td>
+									<input required name="hoten" id="txtHoTen" type="text" placeholder="nhập họ tên">
+									<span id="txtHoTen_fe"></span>
+								</td>
+							</tr>							
+							<tr>
+								<td><label for="hokhau">Khu vực bạn sống gần:</label></td>
+								 <td>
+									<select id="select">
+										<option>Tp Ho Chi Minh</option>
+										<option>Ha Noi</option>
+										<option>Da nang</option>
+										<option>Can Tho</option>
+									</select><span id="se"></span>
+								 </td>               
+													
+							</tr>
 							
-							<td>  
-								<input type="text" id="txtHoTen" /><label id="lblHoTen">*</label>
+							<tr>
+								<td><label for="email" class="title">Địa chỉ email <span id="email">*</span></label></td>             
+								<td>
+									<input required name="email" id="txtemail" type="text" placeholder="nhập email">
+									<span id="txtemail_fe"></span>
+								</td>
+								
+							</tr>
+							
+							<tr>
+								<td><label for="sdt" class="title">Số điện thoại <span id="sdt">*</span></label></td>
+								<td>
+									<input required name="sdt" id="txtsdt" type="text" placeholder="nhập só điện thoại"><span  id="txtsdt_fe"></span>	
+									
+								</td>             
+								
+							</tr>
+							
+							
+							
 						
+									 <tr>
+										<td>
+										  <label style="text-align:right">Số điểm bạn đánh giá <br>về web của chúng tôi :</label>
+										</td>
+										<td>   
+											<input type="radio" name="diem" value="1" /> <label>1</label>
+											<input type="radio" name="diem" value="2"/> <label>2</label>
+											<input type="radio" name="diem" value="3"/> <label>3</label>
+											<input type="radio" name="diem" value="4"/> <label>4</label>
+											<input type="radio" name="diem" value="5"/> <label>5</label>
+											<br>
+											<input type="radio" name="diem" value="6"/> <label>6</label>
+											<input type="radio" name="diem" value="7"/> <label>7</label>
+											<input type="radio" name="diem" value="8"/> <label>8</label>
+											<input type="radio" name="diem" value="9"/> <label>9</label>
+											<input checked="checked"type="radio" name="diem" value="10"/> <label>10</label>
+										</td>
+									</tr>
+									 <tr>
+								<td>
+								<td>
+							
+								</td>            
+								
+							</tr>
+								
+							<tr>
+							<td><label for="noidung" class="title">Nội dung <span id="noidung">*</span></label>
 							</td>
-						</tr>
-						<tr>
-							<td >        
-								<label " >
-									Nơi bạn sống
-								</label>
-
+							<td><textarea required id="txtnoidung" cols="50" rows="20" name="noidung" onkeyup="return ktSotu();"></textarea><br>
+								<span style="color:red" id="txtnoidung_fe"></span>
+							<div class="demTongso">Số ký tự còn lại:
+								<input  name="kyTutoida" size="4" readonly="" value="200" type="text">
+							</div>
 							</td>
-							<td >
-								<select id="HoKhau">
-								<option>Tp Hồ Chí Minh</option>
-								<option>Hà Nội</option>
-								<option>Cần Thơ</option>
-							</select>
-							   <label id="lblHoKhau"></label>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<label " id=" Email">
-									Email của bạn 
-								</label>
-						
-						   </td>
-						   <td>
-							   <input type="text" id="txtEmail" name="txtEmail" placeholder="Email" /><span id="Email"></span>
-						   </td>
-						 </tr>
-						<tr>
-							<td>
-								<label style="text-align:right"> Góp Ý Về :</label>
-							</td>
-							<td>
-									<input type="checkbox" /> <label>Music</label>
-									<input type="checkbox" /> <label>Conversations</label>
-									<input type="checkbox" /> <label>Games</label><br>
-									<input type="checkbox" /> <label>Grammar</label>
-									<input type="checkbox" /> <label>Nội dung khác</label>
-							</td>
-						</tr>
-						 <tr>
-							<td>
-							  <label style="text-align:right">Số điểm bạn đánh giá <br>về web của chúng tôi :</label>
-							</td>
-							<td>   
-								<input type="radio" name="diem" value="1" /> <label>1</label>
-								<input type="radio" name="diem" value="2"/> <label>2</label>
-								<input type="radio" name="diem" value="3"/> <label>3</label>
-								<input type="radio" name="diem" value="4"/> <label>4</label>
-								<input type="radio" name="diem" value="5"/> <label>5</label>
-								<br>
-								<input type="radio" name="diem" value="6"/> <label>6</label>
-								<input type="radio" name="diem" value="7"/> <label>7</label>
-								<input type="radio" name="diem" value="8"/> <label>8</label>
-								<input type="radio" name="diem" value="9"/> <label>9</label>
-								<input checked="checked"type="radio" name="diem" value="10"/> <label>10</label>
-							</td>
-						</tr>
-						 <tr>
-							<td>  
-								<label style="text-align:right">Nội Dung</label>
-							</td>
-							<td>    
-								<textarea style="width:400px;height:300px" placeholder="your text here!!!"></textarea>
-							</td>
-						</tr>
+							</tr>
+                 
 					
-                        
-                    </table>
+							
+		   </table>
 				
 				 
 				  <div>
-            <input style="float:right;margin:0px 50px 10px 0px;padding-left:26px;padding-right:26px"type="submit" value="Gửi" />
-            <input style="float:right;margin:0px 50px 10px 0px;padding-left:26px;padding-right:26px"type="reset" value="Xóa" />
+				<input type="submit" value="Gữi" id="btnSubmit" />
+                <input type="reset" value="Nhập Lại" id="submit" />
 				 </div>
 			</div>
 			
+			</form>
 			<div id="footer">
 				<p>Hãy cùng chúng tôi cải thiện khả năng ngôn ngữ của bạn </p>
 				<p>LEARN HARD PLAY HARD</p>
@@ -130,3 +151,4 @@
 		</div>
 	</body>
 </html>
+    

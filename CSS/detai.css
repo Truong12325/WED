@@ -64,7 +64,7 @@ background-color:#33E3FF;
 
 #nav{
 	
-	background-image: url(../Images/navback.png);
+	background-image: url(../Images/eng2.jpg);
     height:140px;
     float:left;
     text-align:center;
@@ -72,7 +72,7 @@ background-color:#33E3FF;
     color:#ffffff;
     font-size: 16px;
 	margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
+    padding:0px 0px 20px 0px;
     border:1px solid #2083cd;
 	line-height: 10px
 }
@@ -80,13 +80,13 @@ background-color:#33E3FF;
 			{
 				list-style:none;
 				text-align : center;
-				margin:50px 0px 0px 180px;
+				margin:40px 0px 0px 180px;
 			}
 			#nav ul li
 			{
 				border-radius:20px;
 				display: inline-table;
-				background: green;
+				background: #06B262;
 				width:120px;
 				height:40px;
 				line-height:40px;
@@ -101,9 +101,10 @@ background-color:#33E3FF;
 			}
 			#nav ul li a:hover
 			{
+				transition: 0.7s;
 				border-radius:20px;
-				background:#f1f1f1;
-				color:green;
+				background:#FBE6FF;
+				color:#06B262;
 			}
  #nav .hidden{
 	width:auto;
@@ -225,7 +226,7 @@ background-color:#33E3FF;
 }
 #left ul li{
   color:#f1f1f1;
-  background:#1f568b;
+  background:#5207E9;
   width:150px;
   height:40px;
   line-height:40px;
@@ -236,14 +237,27 @@ background-color:#33E3FF;
   text-align : center;
 }
 #left ul li a{
+	border-radius: 30px;
 	text-decoration: none;
 	display: block;
 	color:#f1f1f1;
 }
 #left ul li a:hover{
+	transition: 0.3s ease;
 	background:#f1f1f1;
 	color:#1f568b;
 }
+#left ul li:hover{
+	transition: 0.3s ease;
+	border-radius: 30px;
+	background:#f1f1f1;
+	color:#1f568b;
+}
+.a1:hover{
+	transition: 0.3s ease;
+	background:#f1f1f1;
+	color:Lime;
+	}
 #left .hidden{
 	width:auto;
 	display: none;
@@ -253,6 +267,7 @@ background-color:#33E3FF;
 	
 }
 #left ul li:hover .hidden{
+
   display:block;
   margin-bottom:0px;
 }
