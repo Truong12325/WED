@@ -64,17 +64,15 @@ background-color:#33E3FF;
 
 #nav{
     background-image: url(../Images/eng2.jpg);
-    height:160px;
+    height:140px;
     float:left;
     text-align:center;
     width:100%;
     color:#ffffff;
     font-size: 16px;
 
-	margin:0px 0px 0px 0px;
     padding:0px 0px 20px 0px;
-	margin:0px 0px 30px 0px;
-    padding:0px 0px 0px 0px;
+	margin:0px 0px 5px 0px;
 
     border:1px solid #2083cd;
 	line-height: 10px;
@@ -89,11 +87,7 @@ background-color:#33E3FF;
 			{
 				border-radius:20px;
 				display: inline-table;
-
 				background: #06B262;
-
-				background:#33ccff;
-
 				width:120px;
 				height:40px;
 				line-height:40px;
@@ -163,7 +157,7 @@ background-color:#33E3FF;
     text-align: center;
     width: 550px;
     height: 230px;
-	background-color: rgb(102, 255, 204);
+    background-color: rgb(102, 255, 204);
     margin: 0px 0px 20px 20px;
     border-width: 5px;
     border-style: dotted;
