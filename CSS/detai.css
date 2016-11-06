@@ -370,6 +370,23 @@ video{
 	width:600px;
 }
 
+/*=================================Back to Top=========================*/
+.btn-top {
+    background-image: url(../Images/top2.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    height: 60px;
+    outline: medium none;
+    padding: 0;
+    position: fixed;
+    right: 5px;
+    width: 60px;
+    z-index: 9999;
+}
+
 
 
 
