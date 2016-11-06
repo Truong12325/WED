@@ -61,13 +61,25 @@
 	background-color:#33E3FF;	
 	color:white;
 }
+#footright{
+	 float: right;
+    margin-top: 10px;
+}
+#footleft{
+	margin-top:50px;
+	padding-bottom:3px;
+}
+#footcen{
+	margin-right:100px;
+	
+}
 
 #nav{
     background-image: url(../Images/eng2.jpg);
     height:140px;
     float:left;
     text-align:center;
-    width:100%;
+    	width:1096px;
     color:#ffffff;
     font-size: 16px;
 
